@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Personal Portfolio </title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+   <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+   <a href="#home" class="logo">Portfolio</a>
+
+   <nav class="navbar">
+      <a href="#home" class="active">home</a>
+      <a href="#about">about</a>
+      <a href="#services">services</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#contact">contact</a>
+   </nav>
+
+   <div class="follow">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-github"></a>
+   </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="image" data-aos="fade-right">
+      <img src="images/user-img.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3 data-aos="fade-up">hi, i am Tinatin Nanitashvili</h3>
+      <span data-aos="fade-up">Data/Budiness Analyst</span>
+      <p data-aos="fade-up">By Profession Financier, Organizational Psychologist; Work experience in Banking system, Tax Auditor, Private Tax Officer.
+         Current position Data (Business) Analyst in Georgia Revenue Service.
+         Last Hobby and Profession interest is directly related with JS/FE Development. Taking great pleasure by coding and always trying to learn new things from everywhere.</p>
+      <a data-aos="fade-up" href="#about" class="btn">about me</a>
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <h1 class="heading" data-aos="fade-up"> <span>biography</span> </h1>
+   <!-- <h2 class="heading" data-aos="fade-up">Contact Information</h2> -->
+
+   <div class="biography">
+
+      <!-- <p data-aos="fade-up">
+         
+      </p> -->
+
+      <div class="bio">
+         <h3 data-aos="zoom-in"> <span>name : </span> Tinatin Nanitashvili </h3>
+         <h3 data-aos="zoom-in"> <span>email : </span> tinatin.nanitashvili@gmail.com </h3>
+         <h3 data-aos="zoom-in"> <span>address : </span> Tbilisi, Georgia </h3>
+         <h3 data-aos="zoom-in"> <span>phone : </span> +995 577 055 453 </h3>
+         <!-- <h3 data-aos="zoom-in"> <span>age : </span> 22 years </h3> -->
+         <h3 data-aos="zoom-in"> <span>experience : </span> 10+ years </h3>
+      </div>
+
+      <a href="#" class="btn" data-aos="fade-up">download CV</a>
+
+   </div>
+   
+   <div class="skills" data-aos="fade-up">
+
+      <h1 class="heading"> <span>skills</span> </h1>
+
+      <div class="progress">
+         <div class="bar" data-aos="fade-left"> <h3><span>HTML</span> <span>90%</span></h3> </div>
+         <div class="bar" data-aos="fade-right"> <h3><span>CSS</span> <span>80%</span></h3> </div>
+         <div class="bar" data-aos="fade-left"> <h3><span>JavaScript</span> <span>65%</span></h3> </div>
+         <div class="bar" data-aos="fade-right"> <h3><span>PHP</span> <span>80%</span></h3> </div>
+         <div class="bar" data-aos="fade-left"> <h3><span>SQL</span> <span>90%</span></h3> </div>
+         <div class="bar" data-aos="fade-right"> <h3><span>ORCL</span> <span>85%</span></h3> </div>
+         <div class="bar" data-aos="fade-left"> <h3><span>Power BI</span> <span>75%</span></h3> </div>
+      </div>
+
+   </div>
+
+   <div class="edu-exp">
+
+      <h1 class="heading" data-aos="fade-up"> <span>education & experience</span> </h1>
+
+      <div class="row">
+
+         <div class="box-container">
+
+            <h3 class="title" data-aos="fade-right">education</h3>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2005 - 2009 )</span>
+               <h3>Finance and Banking</h3>
+               <p>Tbilisi State University, Bachelor</p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2011 - 2013 )</span>
+               <h3>Organizational Psychology</h3>
+               <p>Tbilisi State University, Master</p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2006 - 2010 )</span>
+               <h3>ACCA</h3>
+               <p>Georgian Federation of Professional Accountants and Auditors</p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( 2021 - 2022 )</span>
+               <h3>SQL / Power BI</h3>
+               <p>MOF Academy course / Power BI Course In E-Academy / Online Courses In Coding Of EDX, Coursera </p>
+            </div>
+
+         </div>
+
+         <div class="box-container">
+
+            <h3 class="title" data-aos="fade-left">experience</h3>
+
+            <div class="box" data-aos="fade-left">
+               <span>( 2010 - 2014 )</span>
+               <h3>Tax Auditor</h3>
+               <p>Georgia Revenue Service, Audit Department</p>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+               <span>( 2014 - 2019 )</span>
+               <h3>Private Tax Officer</h3>
+               <p>Georgia Revenue Service, Tax Service Department</p>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+               <span>( 2019 - till present )</span>
+               <h3>Data Analyst</h3>
+               <p>Georgia Revenue Service, Analytical Department</p>
+            </div>
+
+            <!-- <div class="box" data-aos="fade-left">
+               <span>( 2021 - 2022 )</span>
+               <h3>Tech English - B2</h3>
+               <p>every day practice of making Presentations and Reports for different Focus Groups, demanded in Georgia Revenue Service.</p>
+            </div> -->
+
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+   <h1 class="heading" data-aos="fade-up"> <span>services</span> </h1>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-code"></i>
+         <h3>web development</h3>
+         <p>BTU Front-End Development Course - 500 Women in Tech.</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-paint-brush"></i>
+         <h3>data science</h3>
+         <p>Big Data Tools in GRS (SSIS, SSAS, Power BI, SQL)</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fab fa-bootstrap"></i>
+         <h3>bootstrap</h3>
+         <p>BTU Front-End Development Course - 500 Women in Tech.</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-chart-line"></i>
+         <h3>GitHub</h3>
+         <p>BTU Project coding tests in Front-End Development Course</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-bullhorn"></i>
+         <h3>SPSS Statistict (IBM)</h3>
+         <p>Research Outputs of Master Program in TSU (Organizational Psychology)</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fab fa-wordpress"></i>
+         <h3>wordpress</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+   <h1 class="heading" data-aos="fade-up"> <span>portfolio</span> </h1>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/img-1.jpg" alt="">   
+         <h3>Final Project <span>( 2022 )</span></h3> 
+         <a data-aos="fade-up" href="https://tikatiik.github.io/Final-Project/" class="btn" target="_blank">web development</a>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/img-2.jpg" alt="">
+         <h3>code examples <span>( 2021 - 2022 )</span></h3>
+         <a data-aos="fade-up" href="https://github.com/TiKaTiiK?tab=repositories" class="btn" target="_blank">web development</a>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/img-3.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/img-4.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/img-5.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/img-6.jpg" alt="">
+         <h3>web development</h3>
+         <span>( 2020 - 2022 )</span>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading" data-aos="fade-up"> <span>contact me</span> </h1>
+
+   <form action="/action_page.php" method="post">
+      <div class="flex">
+         <input data-aos="fade-right" type="text" name="name" placeholder="enter your name" class="box" required>
+         <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
+      </div>
+      <input data-aos="fade-up" type="number" min="0" name="number" placeholder="enter your number" class="box" required>
+      <textarea data-aos="fade-up" name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
+      <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
+   </form>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-phone"></i>
+         <h3>phone</h3>
+         <p>+995 577 055 453</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>tinatin.nanitashvili@gmail.com</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>address</h3>
+         <p>Tbilisi, Georgia - 0162</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<footer>
+   <div class="credit">
+      <a  href="https://app.rs.school/" class="btn" target="_blank"> <img src="images/logo-rsschool3.png" alt=""> </a>
+   </div>
+      
+   <div class="credit">
+      <a  href="https://github.com/TiKaTiiK/rsschool-cv" class="btn" target="_blank">Tinatin Nanitashvili<span>    10/18/2022</span></a>
+   </div>
+</footer>
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>
+   
+</body>
+</html>
